@@ -516,10 +516,10 @@ elif pagina == "Pessoas":
         )
 
     with st.expander("📋 Visualizar registros encontrados", expanded=False):
-     st.caption(
-        f"{len(filtrados)} registros encontrados com os filtros atuais."
-     )
-    mostrar_tabela(filtrados)
+        st.caption(
+            f"{len(filtrados)} registros encontrados com os filtros atuais."
+        )
+        mostrar_tabela(filtrados)
 
 # =========================================================
 # OPERAÇÕES
